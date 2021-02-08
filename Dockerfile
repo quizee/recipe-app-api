@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.9-alpine
 # alpine은 파이썬의 minimal한 light 버전이므로 빌드가 더 빠를 수 있다. 
 
 ENV PYTHONUNBUFFERED 1
